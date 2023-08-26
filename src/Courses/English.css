@@ -1,0 +1,19 @@
+.image-course {
+    width: 100% !important;
+} 
+.english-groupes {
+    margin-top: 50px;
+}
+.english-group {
+    margin: 10px 0;
+}
+.course-text {
+    text-transform: uppercase;
+}
+.course-info {
+    margin-top: 5px;
+}
+.lesson-link {
+    text-decoration: none;
+    color: #000;
+}

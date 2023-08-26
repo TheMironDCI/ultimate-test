@@ -1,0 +1,41 @@
+.footer-fluid {
+    background: #000;
+    padding: 20px;
+}
+.footer-link {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    width: 100%;
+    margin-bottom: 5px;
+}
+.footer-link:hover {
+    color: blue;
+}
+.footer {
+    justify-content: space-evenly;
+}
+.developer {
+    width: 100%;
+    text-align: center;
+}
+.developer-text {
+    color: #fff;
+    font-size: 16px;
+}
+@media (max-width: 767px) { 
+    .container-fluid {
+        padding: 20px 0;
+    }
+    .footer {
+        justify-content: space-between;
+        text-align: center;
+    }
+}
+@media (min-width: 767px) and (max-width: 992px) { 
+
+}
+
+@media (min-width: 993px) and (max-width: 1200px) { 
+
+}

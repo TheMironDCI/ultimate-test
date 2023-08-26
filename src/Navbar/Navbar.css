@@ -1,0 +1,87 @@
+.nav {
+    width: 100%;
+    padding: 0 2.5rem;
+    display: block;
+}
+.navbar { 
+    width: 100%;
+}
+.container {
+    display: flex;
+    padding: 20px 0;
+}
+.navbar-nav {
+    width: 100%;
+}
+.join-btn {
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,4,64,1) 35%, rgba(0,212,255,1) 100%);
+}
+.join-btn a {
+    color: #fff;
+}
+
+.contact-link {
+    color: #000;
+}
+.join-link {
+    color: #000;
+}
+.link {
+    text-decoration: none;
+    font-size: 26px;
+    font-weight: 600;
+    transition-duration: .2s;
+    color: #000;
+}
+.btn:hover {
+    cursor: pointer;
+}
+.btn:hover {
+    color: #282C34;
+}
+.btn:active {
+    color: #282C34 !important;
+}
+.nav-box {
+    display: flex;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.nav-link-in {
+    margin: 0 auto;
+}
+.nav-link{
+    display: flex;
+    justify-content: center;
+}
+@media (max-width: 767px) { 
+    .nav {
+        padding: 0;
+    }
+    .nav-container {
+        width: 100% !important;
+    }
+    .nav-box {
+        overflow: hidden;
+        padding: 5px;
+        width: 25%;
+        text-align: center;
+    }
+    .nav-link {
+        width: 100%;
+        font-size: 22px;
+        text-align: center;
+    }
+    .join-link {
+        width: 100% !important;
+        text-align: center !important;
+    }
+}
+@media (min-width: 767px) and (max-width: 992px) { 
+
+}
+
+@media (min-width: 993px) and (max-width: 1200px) { 
+
+}
