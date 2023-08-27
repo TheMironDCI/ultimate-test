@@ -2,7 +2,7 @@ import React from "react";
 import "./Contact.css";
 const Contact = () => {
   return (
-    <div className="contact-container container">
+    <div className="contact-container container d-block">
       <h1 className="map-text">Контакты <i className="fa fa-phone" aria-hidden="true"></i></h1>
       <div className="container-contact-box ">
         <div className="contact-box phones-box">

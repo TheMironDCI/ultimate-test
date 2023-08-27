@@ -47,6 +47,7 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,4,64,1) 35%, rgba(0
     display: flex;
     border-radius: 20px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-bottom: 10px;
 }
 .nav-link-in {
     margin: 0 auto;
@@ -55,7 +56,19 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,4,64,1) 35%, rgba(0
     display: flex;
     justify-content: center;
 }
+.navbar-toggler {
+    display: none;
+    margin-left: 20px;
+}
+.nav-toggle-two {
+    margin-left: 243px;
+    margin-bottom: 20px;
+}
+
 @media (max-width: 767px) { 
+    .navbar-toggler {
+        display: block;
+    }
     .nav {
         padding: 0;
     }
@@ -65,7 +78,7 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,4,64,1) 35%, rgba(0
     .nav-box {
         overflow: hidden;
         padding: 5px;
-        width: 25%;
+        width: 100%;
         text-align: center;
     }
     .nav-link {
@@ -77,9 +90,46 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,4,64,1) 35%, rgba(0
         width: 100% !important;
         text-align: center !important;
     }
+    .nav-menu {
+        display: block !important;
+        position: fixed;
+        top: 0;
+        left: -100%; /* Начальное значение - сдвигаем меню влево за пределы экрана */
+        width: 80%; /* Ширина меню на мобильном устройстве */
+        max-width: 300px; /* Максимальная ширина меню */
+        height: 100%;
+        background-color: #fff; /* Цвет фона меню */
+        transition: left 0.3s ease; /* Анимация сдвига меню */
+        z-index: 999; /* Поднимаем меню над контентом */
+      }
+      
+      .nav-menu.show {
+        left: 0; /* Показываем меню - сдвигаем влево на 0 */
+      }
 }
 @media (min-width: 767px) and (max-width: 992px) { 
-
+    .navbar-toggler {
+        display: block;
+    }
+    .nav-menu {
+        display: block !important;
+        position: fixed;
+        top: 0;
+        left: -100%; /* Начальное значение - сдвигаем меню влево за пределы экрана */
+        width: 80%; /* Ширина меню на мобильном устройстве */
+        max-width: 300px; /* Максимальная ширина меню */
+        height: 100%;
+        background-color: #fff; /* Цвет фона меню */
+        transition: left 0.3s ease; /* Анимация сдвига меню */
+        z-index: 999; /* Поднимаем меню над контентом */
+      }
+      
+      .nav-menu.show {
+        left: 0; /* Показываем меню - сдвигаем влево на 0 */
+      }
+      .nav-box {
+        text-align: center;
+      }
 }
 
 @media (min-width: 993px) and (max-width: 1200px) { 

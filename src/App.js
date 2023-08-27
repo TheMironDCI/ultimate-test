@@ -1,7 +1,7 @@
 // App.js
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-// import Navbar from './Navbar/Navbar';
+import Navbar from './Navbar/Navbar';
 import Join from './Navbar/Join';
 import Everest from './Everest';
 import English from './Courses/English';
@@ -11,14 +11,14 @@ import Dispeching from './Courses/Dispeching';
 import CoursesPage from './Section1/CoursesPage';
 import FoundationIT from './Courses/FoundationIT';
 import ContactPage from './Section1/Companents/ContactPage';
-import NavabarTwo from './Navbar/NavabarTwo';
+// import NavabarTwo from './Navbar/NavabarTwo';
 
 
 import "./Navbar/Navbar.css"
 const App = () => {
   return (
     <Router>
-      <NavabarTwo />
+      <Navbar />
       <Routes>
         <Route path='/' element={<Everest/>}/>
         <Route path='/courses' element={<CoursesPage/>}/>

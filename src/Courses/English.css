@@ -3,10 +3,8 @@
 } 
 .english-groupes {
     margin-top: 50px;
-}
-.english-group {
-    margin: 10px 0;
-}
+}   
+
 .course-text {
     text-transform: uppercase;
 }
@@ -16,4 +14,16 @@
 .lesson-link {
     text-decoration: none;
     color: #000;
+}
+.lesson-group-in {
+    margin: 10px 0;
+    border-radius: 30px;
+    padding: 25px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.line {
+    background-color: #000;
+    width: 100%;
+    height: 2px;
+    margin: 10px 0;
 }

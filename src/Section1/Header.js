@@ -8,8 +8,7 @@ const Header = () => {
         <div className="logo">
           <Link className="link logo-img navbar" to={"/"}></Link>
         </div>
-        <h1 className="header-text">Постройте своё будущее с нами</h1>
-        <div className="container">
+        <div className="container mt-5">
           <div className="video-cont">
             <div className="video">
               <iframe

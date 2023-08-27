@@ -11,7 +11,7 @@ function FoundationIT() {
             href="https://ultimate.modme.uz/entry/lead?utm_source=Website"
             target="_blank"
             rel="noopener noreferrer"
-            className="lesson-link col-lg-3 col-md-4 col-6"
+            className="lesson-link col-lg-3 col-md-4 col-12"
           >
             <div className="english-group">
               <div className="course-image">
