@@ -4,7 +4,7 @@ import "../../Navbar/Contact.css";
 const ContactPage = () => {
   return (
     <div className="contact-container container">
-      <h1 className="contact-text">Контакты</h1>
+      <h1 className="contact-text">Kontaktlar</h1>
       <div className="container-contact-box ">
         <div className="contact-box phones-box">
           <div className="contact-texts">

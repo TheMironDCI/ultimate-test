@@ -5,7 +5,7 @@ import "./Frontend.css"
 function Frontend() {
   return (
     <div className='container d-block'>
-     <h1 className='contact-text'>Фронтэнд</h1>
+     <h1 className='contact-text'>Frontend</h1>
      <div className='lesson-groupes'>
         <div className='row'>
         <a
@@ -23,7 +23,7 @@ function Frontend() {
                 />
               </div>
               <div className="course-info">
-                <p className="course-text">Фронтэнд</p>
+                <p className="course-text">Frontend</p>
               </div>
             </div>
           </a>

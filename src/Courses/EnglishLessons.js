@@ -1,13 +1,173 @@
-import React from "react";
-import "./Dispeching.css";
-import "./English.css";
+import React from 'react'
 
-function English() {
+function EnglishLessons() {
   return (
-    <div className="container d-block">
-      <h1 className="contact-text">Ingliz tili</h1>
-      <div className="english-groupes">
+    <div className='container'>
+        <div className="english-groupes">
         <div className="row">
+
+
+            
+            <div className="lesson-group col-lg-3 col-md-4 col-12">
+            <div className="lesson-group-in">
+              <a
+                href="https://ultimate.modme.uz/entry/lead?utm_source=Website"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="lesson-link"
+              >
+                <div className="english-group">
+                  <div className="course-image">
+                    <img
+                      className="image-course"
+                      src={require("../img/English/Kids.png")}
+                      alt="english course"
+                    />
+                  </div>
+                  <div className="course-info">
+                    <p className="course-text">Kids</p>
+                  </div>
+                </div>
+              </a>
+              <div className="line"></div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseSeven"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseSeven"
+                  >
+                    Qo'shimcha ma'lumot
+                    <i className="fa-solid fa-chevron-down"></i>
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapseSeven"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#accordionFlushExample"
+                >
+                  <div class="accordion-body">
+                  <i className="fa-solid fa-check"></i>
+                    Ushbu guruh Ingliz tilini o'rganmoqchi bolajonlar uchun maxsus! <br/>
+                    <i className="fa-solid fa-check"></i>
+                    Kursda yozish, o'qish, talafuz qilish o'rgatiladi <br/>
+                    Narxi : 170.000 so'm / oyiga 
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="lesson-group col-lg-3 col-md-4 col-12">
+            <div className="lesson-group-in">
+              <a
+                href="https://ultimate.modme.uz/entry/lead?utm_source=Website"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="lesson-link"
+              >
+                <div className="english-group">
+                  <div className="course-image">
+                    <img
+                      className="image-course"
+                      src={require("../img/English/starter.png")}
+                      alt="english course"
+                    />
+                  </div>
+                  <div className="course-info">
+                    <p className="course-text">starter</p>
+                  </div>
+                </div>
+              </a>
+              <div className="line"></div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseSix"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseSix"
+                  >
+                    Qo'shimcha ma'lumot
+                    <i className="fa-solid fa-chevron-down"></i>
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapseSix"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#accordionFlushExample"
+                >
+                  <div class="accordion-body">
+                  <i className="fa-solid fa-check"></i>
+                  Ushbu guruhda farzandingiz Ingliz tili so'zlarini bemalol tushunishi va o'qiy olishi mumkin. <br/>
+                  <i className="fa-solid fa-check"></i>
+                  Yangi metodika bo'yicha o'qish!<br/>
+                  <i className="fa-solid fa-check"></i>
+                  Qo'shimcha kitob va ish daftari beriladi.<br/>
+                  Narxi : 170.000 so'm / oyiga
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="lesson-group col-lg-3 col-md-4 col-12">
+            <div className="lesson-group-in">
+              <a
+                href="https://ultimate.modme.uz/entry/lead?utm_source=Website"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="lesson-link"
+              >
+                <div className="english-group">
+                  <div className="course-image">
+                    <img
+                      className="image-course"
+                      src={require("../img/English/Elementary.png")}
+                      alt="english course"
+                    />
+                  </div>
+                  <div className="course-info">
+                    <p className="course-text">elementary</p>
+                  </div>
+                </div>
+              </a>
+              <div className="line"></div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseThree"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseThree"
+                  >
+                    Qo'shimcha ma'lumot
+                    <i className="fa-solid fa-chevron-down"></i>
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapseThree"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#accordionFlushExample"
+                >
+                  <div class="accordion-body">
+                  <i className="fa-solid fa-check"></i>
+                  Bu guruhda grammatika, jumlalar tuzish, kundalik hayotdagi gaplar va boshqa zarur so'zlar o'rganiladi. <br/>
+                  <i className="fa-solid fa-check"></i>
+                  Kerakli barcha kitoblar beriladi! <br/>
+                  Narxi : 200.000 so'm / oyiga
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
           <div className="lesson-group col-lg-3 col-md-4 col-12">
             <div className="lesson-group-in">
               <a
@@ -110,58 +270,7 @@ function English() {
             </div>
           </div>
 
-          <div className="lesson-group col-lg-3 col-md-4 col-12">
-            <div className="lesson-group-in">
-              <a
-                href="https://ultimate.modme.uz/entry/lead?utm_source=Website"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="lesson-link"
-              >
-                <div className="english-group">
-                  <div className="course-image">
-                    <img
-                      className="image-course"
-                      src={require("../img/English/Elementary.png")}
-                      alt="english course"
-                    />
-                  </div>
-                  <div className="course-info">
-                    <p className="course-text">elementary</p>
-                  </div>
-                </div>
-              </a>
-              <div className="line"></div>
-              <div class="accordion-item">
-                <h2 class="accordion-header">
-                  <button
-                    class="accordion-button collapsed"
-                    type="button"
-                    data-bs-toggle="collapse"
-                    data-bs-target="#flush-collapseThree"
-                    aria-expanded="false"
-                    aria-controls="flush-collapseThree"
-                  >
-                    Qo'shimcha ma'lumot
-                    <i className="fa-solid fa-chevron-down"></i>
-                  </button>
-                </h2>
-                <div
-                  id="flush-collapseThree"
-                  class="accordion-collapse collapse"
-                  data-bs-parent="#accordionFlushExample"
-                >
-                  <div class="accordion-body">
-                  <i className="fa-solid fa-check"></i>
-                  Bu guruhda grammatika, jumlalar tuzish, kundalik hayotdagi gaplar va boshqa zarur so'zlar o'rganiladi. <br/>
-                  <i className="fa-solid fa-check"></i>
-                  Kerakli barcha kitoblar beriladi! <br/>
-                  Narxi : 200.000 so'm / oyiga
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+          
 
           <div className="lesson-group col-lg-3 col-md-4 col-12">
             <div className="lesson-group-in">
@@ -263,117 +372,13 @@ function English() {
             </div>
           </div>
 
-          <div className="lesson-group col-lg-3 col-md-4 col-12">
-            <div className="lesson-group-in">
-              <a
-                href="https://ultimate.modme.uz/entry/lead?utm_source=Website"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="lesson-link"
-              >
-                <div className="english-group">
-                  <div className="course-image">
-                    <img
-                      className="image-course"
-                      src={require("../img/English/starter.png")}
-                      alt="english course"
-                    />
-                  </div>
-                  <div className="course-info">
-                    <p className="course-text">starter</p>
-                  </div>
-                </div>
-              </a>
-              <div className="line"></div>
-              <div class="accordion-item">
-                <h2 class="accordion-header">
-                  <button
-                    class="accordion-button collapsed"
-                    type="button"
-                    data-bs-toggle="collapse"
-                    data-bs-target="#flush-collapseSix"
-                    aria-expanded="false"
-                    aria-controls="flush-collapseSix"
-                  >
-                    Qo'shimcha ma'lumot
-                    <i className="fa-solid fa-chevron-down"></i>
-                  </button>
-                </h2>
-                <div
-                  id="flush-collapseSix"
-                  class="accordion-collapse collapse"
-                  data-bs-parent="#accordionFlushExample"
-                >
-                  <div class="accordion-body">
-                  <i className="fa-solid fa-check"></i>
-                  Ushbu guruhda farzandingiz Ingliz tili so'zlarini bemalol tushunishi va o'qiy olishi mumkin. <br/>
-                  <i className="fa-solid fa-check"></i>
-                  Yangi metodika bo'yicha o'qish!<br/>
-                  <i className="fa-solid fa-check"></i>
-                  Qo'shimcha kitob va ish daftari beriladi.<br/>
-                  Narxi : 170.000 so'm / oyiga
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+          
 
-          <div className="lesson-group col-lg-3 col-md-4 col-12">
-            <div className="lesson-group-in">
-              <a
-                href="https://ultimate.modme.uz/entry/lead?utm_source=Website"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="lesson-link"
-              >
-                <div className="english-group">
-                  <div className="course-image">
-                    <img
-                      className="image-course"
-                      src={require("../img/English/Kids.png")}
-                      alt="english course"
-                    />
-                  </div>
-                  <div className="course-info">
-                    <p className="course-text">Kids</p>
-                  </div>
-                </div>
-              </a>
-              <div className="line"></div>
-              <div class="accordion-item">
-                <h2 class="accordion-header">
-                  <button
-                    class="accordion-button collapsed"
-                    type="button"
-                    data-bs-toggle="collapse"
-                    data-bs-target="#flush-collapseSeven"
-                    aria-expanded="false"
-                    aria-controls="flush-collapseSeven"
-                  >
-                    Qo'shimcha ma'lumot
-                    <i className="fa-solid fa-chevron-down"></i>
-                  </button>
-                </h2>
-                <div
-                  id="flush-collapseSeven"
-                  class="accordion-collapse collapse"
-                  data-bs-parent="#accordionFlushExample"
-                >
-                  <div class="accordion-body">
-                  <i className="fa-solid fa-check"></i>
-                    Ushbu guruh Ingliz tilini o'rganmoqchi bolajonlar uchun maxsus! <br/>
-                    <i className="fa-solid fa-check"></i>
-                    Kursda yozish, o'qish, talafuz qilish o'rgatiladi <br/>
-                    Narxi : 170.000 so'm / oyiga 
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+          
         </div>
       </div>
     </div>
-  );
+  )
 }
 
-export default English;
+export default EnglishLessons

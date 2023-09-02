@@ -4,7 +4,7 @@ import "./FoundationIT.css"
 function FoundationIT() {
   return (
     <div className='container d-block'>
-      <h1 className='contact-text'>Компютерная грамматика</h1>
+      <h1 className='contact-text'>Kompyuter savodxonligi</h1>
       <div className='lesson-groupes'>
         <div className='row'>
         <a
@@ -22,7 +22,7 @@ function FoundationIT() {
                 />
               </div>
               <div className="course-info">
-                <p className="course-text">Компютерная грамматика</p>
+                <p className="course-text">Kompyuter savodxonligi</p>
               </div>
             </div>
           </a>

@@ -4,7 +4,7 @@ import "./Russian.css";
 function Russian() {
   return (
     <div className="container d-block">
-      <h1 className="text contact-text">Русский</h1>
+      <h1 className="text contact-text">Russ tili</h1>
       <div className='lesson-groupes'>
         <div className='row'>
         <a
@@ -22,7 +22,7 @@ function Russian() {
                 />
               </div>
               <div className="course-info">
-                <p className="course-text">Русский</p>
+                <p className="course-text">Russ tili</p>
               </div>
             </div>
           </a>

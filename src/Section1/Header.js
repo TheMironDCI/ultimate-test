@@ -32,7 +32,7 @@ const Header = () => {
           >
             <button className="header-join-btn join-btn  btn">
               <i className="fa-solid fa-arrow-right fa-beat"></i>
-              Присоеденится
+              Qo'shilish
               <i className="fa-sharp fa-solid fa-arrow-left fa-beat"></i>
             </button>
           </a>

@@ -43,17 +43,17 @@ const Navbar = () => {
           ></button>
           <Link className="link nav-box join-btn-box " to={"/"}>
             <div className=" join-link nav-link">
-              <p className="nav-link-in">Главная</p>
+              <p className="nav-link-in">Asosiy</p>
             </div>
           </Link>
           <Link className="link nav-box join-btn-box " to={"/contact"}>
             <div className=" join-link nav-link">
-              <p className="nav-link-in">Контакты</p>
+              <p className="nav-link-in">Kontaktlar</p>
             </div>
           </Link>
           <Link className="link nav-box join-btn-box " to={"/courses"}>
             <div className=" join-link nav-link">
-              <p className="nav-link-in">Курсы</p>
+              <p className="nav-link-in">Kurslar</p>
             </div>
           </Link>
           <div className="nav-box contact-btn-box join-btn">
@@ -63,7 +63,7 @@ const Navbar = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <p className="nav-link-in">Присоеденится</p>
+              <p className="nav-link-in">Qo'shilish</p>
             </a>
           </div>
         </div>

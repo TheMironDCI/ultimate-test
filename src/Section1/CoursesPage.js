@@ -4,7 +4,7 @@ import Courses from './Courses'
 function CoursesPage() {
   return (
     <div className='container contact-container'>
-        <h1 className='courses-text contact-text'>Курсы</h1>
+        <h1 className='courses-text contact-text'>Kurslar</h1>
         <Courses/>
     </div>
   )

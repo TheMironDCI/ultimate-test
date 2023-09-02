@@ -3,7 +3,7 @@ import "./Contact.css";
 const Contact = () => {
   return (
     <div className="contact-container container d-block">
-      <h1 className="map-text">Контакты <i className="fa fa-phone" aria-hidden="true"></i></h1>
+      <h1 className="map-text">Kontaktlar <i className="fa fa-phone" aria-hidden="true"></i></h1>
       <div className="container-contact-box ">
         <div className="contact-box phones-box">
           <div className="contact-texts">

@@ -6,7 +6,7 @@ function Map() {
     <div className="container-fluid d-block">
       <div className="container">
       <h1 className="map-text">
-        Местоположение
+        Manzil
         <i className="fa fa-location-arrow" aria-hidden="true"></i>
       </h1>
       </div>

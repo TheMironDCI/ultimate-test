@@ -4,7 +4,7 @@ import Courses from './Courses'
 const CoursesPageHome = () => {
   return (
     <div className='container d-block'>
-      <h1 className='map-text'>Курсы <i className="fa-solid fa-graduation-cap"></i></h1>
+      <h1 className='map-text'>Kurslar <i className="fa-solid fa-graduation-cap"></i></h1>
       <Courses/>
     </div>
   )
