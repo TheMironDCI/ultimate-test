@@ -27,3 +27,13 @@
     height: 2px;
     margin: 10px 0;
 }
+@media (max-width: 767px) {
+    .row {
+        width: 100% !important;
+    }
+    .lesson-group {
+        margin: 0 auto;
+        width: 90%;
+        padding: 0;
+    }
+}
