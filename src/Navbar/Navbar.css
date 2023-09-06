@@ -67,7 +67,8 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,4,64,1) 35%, rgba(0
 
 @media (max-width: 767px) { 
     .navbar-toggler {
-        display: block;
+        display: inline;
+        width: 60px;
     }
     .nav {
         padding: 0;

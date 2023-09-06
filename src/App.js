@@ -15,6 +15,7 @@ import ContactPage from './Section1/Companents/ContactPage';
 
 
 import "./Navbar/Navbar.css"
+import { Quiz } from './Quiz/Quiz';
 const App = () => {
   return (
     <Router>
@@ -29,6 +30,7 @@ const App = () => {
         <Route path="/frontend" element={<Frontend />} />
         <Route path="/logistic" element={<Dispeching />} />
         <Route path="/foundationIT" element={<FoundationIT />} />
+        <Route path='/quiz' element={<Quiz/>}/>
       </Routes>
     </Router>
   );

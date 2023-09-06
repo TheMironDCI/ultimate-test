@@ -33,7 +33,7 @@ const Navbar = () => {
         >
           <button
             type="button"
-            class="btn-close navbar-toggler nav-toggle-two"
+            className="btn-close navbar-toggler nav-toggle-two"
             data-toggle="collapse"
             data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent"
@@ -54,6 +54,11 @@ const Navbar = () => {
           <Link className="link nav-box join-btn-box " to={"/courses"}>
             <div className=" join-link nav-link">
               <p className="nav-link-in">Kurslar</p>
+            </div>
+          </Link>
+          <Link className="link nav-box join-btn-box " to={"/quiz"}>
+            <div className=" join-link nav-link">
+              <p className="nav-link-in">Savollar</p>
             </div>
           </Link>
           <div className="nav-box contact-btn-box join-btn">
