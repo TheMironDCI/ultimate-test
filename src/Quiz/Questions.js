@@ -1,4 +1,3 @@
-import React from 'react'
     const questions = [
         {
                 questionText: 'What is the capital of USA?',
